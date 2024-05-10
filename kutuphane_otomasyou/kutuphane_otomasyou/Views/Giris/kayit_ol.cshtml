@@ -1,0 +1,329 @@
+﻿
+@model kutuphane_otomasyou.Models.table.kisiler.kisi
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Sayfası</title>
+    <script>
+      
+        function validatePassword() {
+            var password1 = document.getElementById("password").value;
+            var password2 = document.getElementById("password2").value;
+
+            if (password1 !== password2) {
+                alert("Şifreler eşleşmiyor!");
+                return false;
+            }
+            return true;
+        }
+
+
+
+    </script>
+    <style>
+        body {
+            background-image: url(/web/digibook_background_2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 500px;
+            background: #f1f1f1;
+            height: 820px;
+            padding: 80px 40px;
+            border-radius: 15px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+            .container h2 {
+                color: #323dcf;
+                left: 50%;
+                top: 50%;
+                padding: 0px 41px;
+            }
+
+        .txtb {
+            border-bottom: 2px solid #adadad;
+            position: relative;
+            margin: 30px 0;
+        }
+
+            .txtb input {
+                font-size: 15px;
+                color: #333;
+                border: none;
+                width: 100%;
+                outline: none;
+                background: none;
+                padding: 0 5px;
+                height: 40px;
+            }
+
+        img.logoimg {
+            margin-left: 110px;
+            margin-bottom: 50px;
+            max-width: 50%;
+            border-radius: 12%;
+        }
+
+        .logbtn {
+            display: block;
+            width: 100%;
+            height: 50px;
+            border: none;
+            background-image: linear-gradient(135deg, rgba(184,208,254,1) 0%, rgba(22,81,203,1) 35%, rgba(0,212,255,1) 100%);
+            background-size: 140%;
+            color: #ffff;
+            outline: none;
+            cursor: pointer;
+            border-radius: 14px;
+            transition: 0.6s;
+        }
+
+        #username {
+            position: relative;
+            width: 60%;
+            height: 35px;
+            background-image: linear-gradient(135deg, rgb(198, 203, 214) 0%, rgb(190, 212, 255) 35%, rgb(255, 255, 255) 100%);
+            left: 26%;
+            font-size: 15px;
+            border-bottom: 2px solid #adadad;
+            position: relative;
+            margin: 10px 0;
+            border-radius: 14px;
+        }
+
+        #username2 {
+            position: relative;
+            width: 60%;
+            height: 35px;
+            background-image: linear-gradient(135deg, rgb(198, 203, 214) 0%, rgb(190, 212, 255) 35%, rgb(255, 255, 255) 100%);
+            left: 20%;
+            font-size: 15px;
+            border-bottom: 2px solid #adadad;
+            position: relative;
+            margin: 10px 0;
+            border-radius: 14px;
+        }
+
+        #email {
+            position: relative;
+            width: 60%;
+            height: 35px;
+            background-image: linear-gradient(135deg, rgb(198, 203, 214) 0%, rgb(190, 212, 255) 35%, rgb(255, 255, 255) 100%);
+            left: 18%;
+            font-size: 15px;
+            border-bottom: 2px solid #adadad;
+            position: relative;
+            margin: 10px 0;
+            border-radius: 14px;
+        }
+
+        #password {
+            position: relative;
+            width: 60%;
+            height: 35px;
+            background-image: linear-gradient(135deg, rgb(198, 203, 214) 0%, rgb(190, 212, 255) 35%, rgb(255, 255, 255) 100%);
+            left: 24%;
+            font-size: 15px;
+            border-bottom: 2px solid #adadad;
+            position: relative;
+            margin: 10px 0;
+            border-radius: 14px;
+        }
+
+        #password2 {
+            position: relative;
+            width: 60%;
+            height: 35px;
+            background-image: linear-gradient(135deg, rgb(198, 203, 214) 0%, rgb(190, 212, 255) 35%, rgb(255, 255, 255) 100%);
+            left: 11%;
+            font-size: 15px;
+            border-bottom: 2px solid #adadad;
+            position: relative;
+            margin: 10px 0;
+            border-radius: 14px;
+        }
+
+
+        a:link {
+            color: cornflowerblue;
+        }
+
+
+
+        a:hover {
+            color: rgb(1, 39, 88);
+        }
+
+        a {
+            font-size: 16px;
+            padding: 0px 169.7px;
+            box-sizing: border-box;
+        }
+
+        .signupbtn {
+            display: block;
+            width: 100%;
+            height: 60px;
+            border: none;
+            background-image: linear-gradient(135deg, rgba(184,208,254,1) 0%, rgba(22,81,203,1) 35%, rgba(0,212,255,1) 100%);
+            background-size: 140%;
+            color: #ffff;
+            outline: none;
+            cursor: pointer;
+            border-radius: 14px;
+            transition: 0.6s;
+        }
+
+            .signupbtn:hover {
+                scale: 1.07;
+            }
+
+        .logbtn, .signupbtn {
+            transition: transform 0.2s ease-in-out;
+        }
+
+            .logbtn:hover, .signupbtn:hover {
+                background-position: right;
+                background-color: #404146;
+            }
+
+            .logbtn:hover {
+                background-position: right;
+            }
+        kayit_ol:hover {
+            color: rgb(1, 39, 88);
+        }
+        #kayit_ol {
+            color: cornflowerblue;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/web/favicon.ico" type="favicon">
+</head>
+<body>
+
+    @using (Html.BeginForm("kayit_ol", "Giris", FormMethod.Post, new { onsubmit = "return validatePassword();" }))
+    {
+        <div class="container">
+            <div class="contact-form">
+                <img src="/web/Digibook_duz_mavi_jpg_formati.jpg" class="logoimg">
+                <h2>DigiBook Sign Up Sayfası</h2>
+                <br><br>
+                <hr>
+               
+                  
+
+                        <div class="input-group">
+                            <label for="username">Adı : </label>
+                            @Html.TextBoxFor(x => x.ad, new { @id = "username", @required = "required" })
+
+                        </div>
+                        <div class="input-group">
+                            <label for="username2">Soyadı : </label>
+                            @Html.TextBoxFor(x => x.soyad, new { id = "username2", @required = "required" })
+
+                        </div>
+                        <div class="input-group">
+                            <label for="email">E-posta : </label>
+                            @Html.TextBoxFor(x => x.email, new { @id = "email" , @required = "required" , @type = "email" })
+                        </div>
+                        <div class="input-group">
+                            <label for="password">Şifre : </label>
+                            @Html.PasswordFor(x => x.sifre, new { @id = "password" , @required = "required" })
+
+                        </div>
+                        <div class="input-group">
+                            <label for="password2">Tekrar Şifre : </label>
+                            <input type="password" id="password2" name="password2" required>
+
+                        </div>
+                        <br />
+                        <input type="submit" class="signupbtn" value="Kayıt Ol">
+                        <br />
+
+                    <div>
+                        <h6>
+                            @Html.ActionLink("Giriş Yap", "Giris", "Giris", new { area = "" }, new { @class = "navbar-brand" ,id="kayit_ol" })
+
+                        </h6>
+                    </div>
+
+            </div>
+        </div>
+
+    }
+
+        @*<div class="container">
+                <div class="contact-form">
+                    <img src="/web/Digibook_duz_mavi_jpg_formati.jpg" class="logoimg">
+                    <h2>DigiBook Sign Up Sayfası</h2>
+                    <br><br>
+                    <hr>
+                    @using (Html.BeginForm("Home", "Home"))
+                    {
+
+
+                        <label for="email">E-posta Adresi:</label>
+                        @Html.TextBoxFor(x => x.email, new { @class = "form-control" })
+
+                        <hr>
+                        <div class="txtb">
+                            @Html.TextBoxFor(x => x.ad, new { @class = "form-control", placeholder = "Kullanıcı Adı/Username" })
+
+                        </div>
+                        <div class="txtb">
+                            @Html.TextBoxFor(x => x.soyad, new { @class = "form-control", placeholder = "soyad" })
+
+                        </div>
+                        <div class="txtb">
+                            @Html.TextBoxFor(x => x.sifre, new { @class = "form-control", placeholder = "Şifre/Password" })
+
+                        </div>
+                        <div class="txtb">
+                            <input type="password" placeholder="Tekrar Şifre/Again Password">
+                        </div>
+
+
+
+                        <input type="submit" href="https://localhost:44366/Home/Home" class="signupbtn" value="Kayıt Ol" onclick="window.location.href='https://localhost:44366/Home/Home'">
+
+
+                    }
+                    <br />
+                    <div>
+                        <h6>
+                            <a href="" target="_blank">Giriş Yap</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>*@
+
+    </body>
+</html>

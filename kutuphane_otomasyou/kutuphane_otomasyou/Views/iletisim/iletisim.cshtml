@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "iletisim";
+}
+
+<h1 style="text-align:center">İletişim Formu</h1>
+<br />
+<div class="">
+    <form action="/" method="post">
+        <div class="" style=" display: flex; flex-direction: column; /* Kutuları dikey olarak sırala */ justify-content: center; /* Dikeyde ortala */ align-items: center; ">
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name"> <br />
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"><br />
+                </div>
+            </div>
+            <div class="mb-3" style="text-align:center">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3" style="text-align:center">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="reset" class="btn btn-primary btn-lg">GÖNDER</button>
+        </div>
+    </form>
+</div>

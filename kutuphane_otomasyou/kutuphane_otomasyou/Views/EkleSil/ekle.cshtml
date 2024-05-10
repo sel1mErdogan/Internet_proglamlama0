@@ -1,0 +1,80 @@
+﻿@model kutuphane_otomasyou.Models.table.kitaplar.Kitap
+@using kutuphane_otomasyou.Models.table.kitaplar
+
+
+@{
+    ViewBag.Title = "ekle";
+}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <h1 style="text-align:center">Kitap Bilgilerini Girin</h1>
+    <hr />
+
+    @using (Html.BeginForm())
+    {
+
+
+
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div style="width:300px   ">
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">kitap adi</span>
+                    @Html.TextBoxFor(x => x.kitap_adi, new { @class = "form-control" })
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">yazar</span>
+                    @Html.TextBoxFor(x => x.yazar, new { @class = "form-control" })
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">türü</span>
+                    @Html.TextBoxFor(x => x.turu, new { @class = "form-control" })
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">ozet</span>
+                    @Html.TextBoxFor(x => x.ozet, new { @class = "form-control" })
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">sayfa sayisi</span>
+                    @Html.TextBoxFor(x => x.sayfa_sayisi, new { @class = "form-control" })
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">resmi</span>
+                    @Html.TextBoxFor(x => x.resimi, new { @class = "form-control" })
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">yili</span>
+                    @Html.TextBoxFor(x => x.yili, new { @class = "form-control" })
+                </div>
+                @if (TempData["bos"] != null)
+                {
+                    <p style="color: red;text-align:center">Lütfen bütün kutulari doldurun </p>
+                }
+
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <input type="submit" value="Kaydet" class="btn btn-primary " style="margin-right: 10px;" />
+                    <input type="reset" value="Sil" class="btn btn-danger " />
+                </div>
+
+
+            </div>
+        </div>
+        <br />
+    }
+</body>
+</html>

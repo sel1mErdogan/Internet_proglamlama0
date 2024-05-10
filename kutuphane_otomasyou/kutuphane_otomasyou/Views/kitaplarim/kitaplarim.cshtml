@@ -1,0 +1,172 @@
+﻿
+@model List<kutuphane_otomasyou.Models.table.AlinanKitaplar>
+@using kutuphane_otomasyou.Models.table.kitaplar
+@{
+    ViewBag.Title = "kitaplarim";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+        #sefiller {
+            background-color: rgba(255, 255, 255, 0.8); /* Beyaz rengin %50 opaklıkta görünmesini sağlar */
+            background-blend-mode: lighten;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #Yeraltından_Notlar {
+            background-color: rgba(255, 255, 255, 0.8); /* Beyaz rengin %50 opaklıkta görünmesini sağlar */
+            background-blend-mode: lighten;
+            background-image: url('https://m.media-amazon.com/images/I/61Y-9CQTrLL._AC_UF1000,1000_QL80_.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+
+</head>
+
+
+
+
+<body>
+
+
+
+
+    @using (Html.BeginForm("Alinan_Aranan_Kitap", "kitaplar"))
+    {
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand">Alinan Kitaplar</a>
+
+                <div style="display: flex; align-items: flex-end;">
+                    @Html.TextBox("Aranan_Kitap", null, new { @class = "form-control me-2", type = "search", placeholder = "Search", aria_label = "Search" })
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </div>
+
+            </div>
+        </nav>
+    }
+   
+
+    @if (Model != null)
+    {
+
+        <section class="container my-5">
+            <div>
+                <div class="row">
+                    @{
+                        
+
+
+                        foreach (var x in Model.Where(k => k.kullanici_ıd == Convert.ToInt32(Session["id"])))
+                        {
+
+
+
+
+                            <div class="col-lg-4 mb-4">
+
+                                <div class="card" id="sefiller" style="background-image: url(@x.resimi)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                                        <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+                                    </svg>
+                                    <div class="card-body" id="bilgiler">
+                                        <h5 class="card-title">@x.kitap_adi</h5>
+                                        <p class="card-text">@x.ozet</p>
+                                        @Html.ActionLink("İADE ET", "iadeEt", "kitaplarim", new { Kitapismi = x.kitap_adi }, new { @class = "btn btn-warning" })
+                                        @Html.ActionLink("DETAYLAR", "kitapDetaylari2", "kitaplarim", new { Kitapismi = x.kitap_adi }, new { @class = "btn btn-success float-end" })
+
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+
+        </section>
+
+
+    }
+    else
+    {
+        <h1>bosssssss</h1>
+    }
+
+
+
+
+
+
+    @*@using (Html.BeginForm())
+            {
+
+
+
+                        <div style="width:300px">
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">kitap adi</span>
+                                @Html.TextBoxFor(x => x.kitap_adi, new { @class = "form-control" })
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">yazar</span>
+                                @Html.TextBoxFor(x => x.yazar, new { @class = "form-control" })
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">türü</span>
+                                @Html.TextBoxFor(x => x.turu, new { @class = "form-control" })
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">ozet</span>
+                                @Html.TextBoxFor(x => x.ozet, new { @class = "form-control" })
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">sayfa sayisi</span>
+                                @Html.TextBoxFor(x => x.sayfa_sayisi, new { @class = "form-control" })
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">resmi</span>
+                                @Html.TextBoxFor(x => x.resimi, new { @class = "form-control" })
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">yili</span>
+                                @Html.TextBoxFor(x => x.yili, new { @class = "form-control" })
+                            </div>
+                            <input type="submit" value="kaydet" class="btn btn-primary " />
+                        </div>
+
+        }
+
+                   <div class="input-group mb-3 ">
+                    @if (ViewBag.sonuc!=null )
+                    {
+
+                        <div class="alert alert-@ViewBag.durum" role="alert" > @ViewBag.sonuc </div>
+
+                    }
+                        }
+
+                </div>*@
+</body>
+
+</html>

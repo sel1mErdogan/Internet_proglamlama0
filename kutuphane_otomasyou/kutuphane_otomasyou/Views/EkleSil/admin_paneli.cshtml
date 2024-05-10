@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "admin_paneli";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Paneli</title>
+ 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Admin Paneli</a>
+
+    </nav>
+
+    <div class="container mt-2" style="margin-bottom:200px; width:40%" >
+        <h1 class="text-center">Admin Paneli</h1>
+
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <td>Kullanıcı sayısı:</td>
+                        <td><strong>@TempData["kisi sayisi"]</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Banlı kullanıcı sayısı:</td>
+                        <td><strong>@TempData["Cezali Kisiler sayisi"]</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Toplam kitap sayısı:</td>
+                        <td><strong>@TempData["kitap sayisi"]</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Toplam kitap türü:</td>
+                        <td><strong>7</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Alınan kitap sayısı:</td>
+                        <td><strong>@TempData["Alinan Kitap sayisi"]</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    @*<div class="container mt-4 text-center" style="margin-bottom:200px">
+        <h1>Admin Paneli</h1>
+
+        <p>Kullanıcı sayısı: <strong>@TempData["kisi sayisi"]</strong></p>
+        <p>Banlı kullanıcı sayısı: <strong>@TempData["Cezali Kisiler sayisi"]</strong></p>
+        <p>Toplam kitap sayısı: <strong>@TempData["kitap sayisi"]</strong></p>
+        <p>Toplam kitap türü: <strong>7</strong></p>
+        <p>Alınan kitap sayısı: <strong>@TempData["Alinan Kitap sayisi"]</strong></p>
+    </div>*@
+
+
+
+
+</body>
+</html>

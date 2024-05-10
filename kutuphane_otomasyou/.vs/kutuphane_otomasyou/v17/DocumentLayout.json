@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\giris\\kayit_ol.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\giris\\kayit_ol.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\giris\\giris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\giris\\giris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\eklesil\\admin_paneli.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\eklesil\\admin_paneli.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\controllers\\eklesilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\controllers\\eklesilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|c:\\users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\models\\databasecontextcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\models\\databasecontextcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\eklesil\\cezalikisiler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\eklesil\\cezalikisiler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\controllers\\giriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\controllers\\giriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\controllers\\iletisimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\controllers\\iletisimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\controllers\\kitaplarimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\controllers\\kitaplarimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\controllers\\profilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\controllers\\profilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\controllers\\kitaplarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\controllers\\kitaplarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\controllers\\sharedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\controllers\\sharedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\models\\table\\cezalikisiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\models\\table\\cezalikisiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\iletisim\\iletisim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\iletisim\\iletisim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\eklesil\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\eklesil\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\models\\table\\alinankitaplar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\models\\table\\alinankitaplar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\profil\\profilguncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\profil\\profilguncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\kitaplar\\kitapdetaylari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\kitaplar\\kitapdetaylari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\profil\\profil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\profil\\profil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\kitaplarim\\kitaplarim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\kitaplarim\\kitaplarim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\kitaplar\\kitaplar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\kitaplar\\kitaplar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\kitaplar\\aranan_kitap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\kitaplar\\aranan_kitap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\kitaplar\\alinan_aranan_kitap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\kitaplar\\alinan_aranan_kitap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\models\\table\\kitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\models\\table\\kitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\models\\table\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\models\\table\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\models\\table\\kisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\models\\table\\kisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\views\\eklesil\\sil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\views\\eklesil\\sil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\web\\digibook_favicon1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\web\\digibook_favicon1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{43AE6D20-19B4-4F60-803E-49582E193CB5}|kutuphane_otomasyou\\kutuphane_otomasyou.csproj|solutionrelative:kutuphane_otomasyou\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "admin_paneli.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\EkleSil\\admin_paneli.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\EkleSil\\admin_paneli.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\EkleSil\\admin_paneli.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\EkleSil\\admin_paneli.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T11:11:53.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAABMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T09:27:35.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAcwFUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T10:05:38.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EkleSilController.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\EkleSilController.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Controllers\\EkleSilController.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\EkleSilController.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Controllers\\EkleSilController.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAYwJUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:02:27.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "databaseContextcs.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\databaseContextcs.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Models\\databaseContextcs.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\databaseContextcs.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Models\\databaseContextcs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T20:12:37.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "iletisimController.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\iletisimController.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Controllers\\iletisimController.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\iletisimController.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Controllers\\iletisimController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T09:38:08.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kayit_ol.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Giris\\kayit_ol.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\Giris\\kayit_ol.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Giris\\kayit_ol.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\Giris\\kayit_ol.cshtml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T12:04:58.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Giris.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Giris\\Giris.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\Giris\\Giris.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Giris\\Giris.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\Giris\\Giris.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAIsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T19:36:01.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GirisController.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\GirisController.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Controllers\\GirisController.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\GirisController.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Controllers\\GirisController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAAE4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T09:25:57.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "kitaplarimController.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\kitaplarimController.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Controllers\\kitaplarimController.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\kitaplarimController.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Controllers\\kitaplarimController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:21:59.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cezaliKisiler.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\EkleSil\\cezaliKisiler.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\EkleSil\\cezaliKisiler.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\EkleSil\\cezaliKisiler.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\EkleSil\\cezaliKisiler.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T10:04:03.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProfilController.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\ProfilController.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Controllers\\ProfilController.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\ProfilController.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Controllers\\ProfilController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T09:49:05.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SharedController.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\SharedController.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Controllers\\SharedController.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\SharedController.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Controllers\\SharedController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:50:14.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "kitaplarController.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\kitaplarController.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Controllers\\kitaplarController.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Controllers\\kitaplarController.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Controllers\\kitaplarController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAkwBgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T11:41:35.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ekle.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\EkleSil\\ekle.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\EkleSil\\ekle.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\EkleSil\\ekle.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\EkleSil\\ekle.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T10:20:36.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CezaliKisiler.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\table\\CezaliKisiler.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Models\\table\\CezaliKisiler.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\table\\CezaliKisiler.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Models\\table\\CezaliKisiler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:45:35.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "iletisim.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\iletisim\\iletisim.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\iletisim\\iletisim.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\iletisim\\iletisim.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\iletisim\\iletisim.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T12:08:03.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\Home\\Home.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Home\\Home.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\Home\\Home.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T19:49:41.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AlinanKitaplar.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\table\\AlinanKitaplar.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Models\\table\\AlinanKitaplar.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\table\\AlinanKitaplar.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Models\\table\\AlinanKitaplar.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T20:11:11.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Web.config",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Web.config",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Web.config",
+              "RelativeToolTip": "kutuphane_otomasyou\\Web.config",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-04T21:15:31.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Global.asax.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Global.asax.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Global.asax.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T12:41:59.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:19:46.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\packages.config",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\packages.config",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\packages.config",
+              "RelativeToolTip": "kutuphane_otomasyou\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-05T14:27:19.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\App_Start\\FilterConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:34:52.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:34:53.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProfilGuncelle.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Profil\\ProfilGuncelle.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\Profil\\ProfilGuncelle.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Profil\\ProfilGuncelle.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\Profil\\ProfilGuncelle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T12:29:29.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "kitapDetaylari.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\kitaplar\\kitapDetaylari.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\kitaplar\\kitapDetaylari.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\kitaplar\\kitapDetaylari.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\kitaplar\\kitapDetaylari.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T12:41:09.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Profil.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Profil\\Profil.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\Profil\\Profil.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\Profil\\Profil.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\Profil\\Profil.cshtml",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAgwK4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T21:07:40.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "kitaplarim.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\kitaplarim\\kitaplarim.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\kitaplarim\\kitaplarim.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\kitaplarim\\kitaplarim.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\kitaplarim\\kitaplarim.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T14:55:25.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "kitaplar.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\kitaplar\\kitaplar.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\kitaplar\\kitaplar.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\kitaplar\\kitaplar.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\kitaplar\\kitaplar.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAkwDkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T11:41:52.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Aranan_Kitap.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\kitaplar\\Aranan_Kitap.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\kitaplar\\Aranan_Kitap.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\kitaplar\\Aranan_Kitap.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\kitaplar\\Aranan_Kitap.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T17:54:35.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Alinan_Aranan_Kitap.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\kitaplar\\Alinan_Aranan_Kitap.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\kitaplar\\Alinan_Aranan_Kitap.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\kitaplar\\Alinan_Aranan_Kitap.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\kitaplar\\Alinan_Aranan_Kitap.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T19:22:30.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Kitap.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\table\\Kitap.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Models\\table\\Kitap.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\table\\Kitap.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Models\\table\\Kitap.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAowDEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T20:11:13.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\table\\Admin.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Models\\table\\Admin.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\table\\Admin.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Models\\table\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T20:11:10.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "kisi.cs",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\table\\kisi.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Models\\table\\kisi.cs",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Models\\table\\kisi.cs",
+              "RelativeToolTip": "kutuphane_otomasyou\\Models\\table\\kisi.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwBAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T20:10:37.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "sil.cshtml",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\EkleSil\\sil.cshtml",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\Views\\EkleSil\\sil.cshtml",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\Views\\EkleSil\\sil.cshtml",
+              "RelativeToolTip": "kutuphane_otomasyou\\Views\\EkleSil\\sil.cshtml",
+              "ViewState": "AQIAADQAAAAAAAAAAAAgwFYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T10:18:02.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "digibook_favicon1.jpg",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\web\\digibook_favicon1.jpg",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\web\\digibook_favicon1.jpg",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\web\\digibook_favicon1.jpg",
+              "RelativeToolTip": "kutuphane_otomasyou\\web\\digibook_favicon1.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-02T12:46:49.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "favicon.ico -  [English (United States)] - Icon [16x16, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\favicon.ico",
+              "RelativeDocumentMoniker": "kutuphane_otomasyou\\favicon.ico",
+              "ToolTip": "C:\\Users\\selim\\source\\repos\\kutuphane_otomasyou\\kutuphane_otomasyou\\favicon.ico -  [English (United States)] - Icon [16x16, 32 bit, BMP]",
+              "RelativeToolTip": "kutuphane_otomasyou\\favicon.ico -  [English (United States)] - Icon [16x16, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-05-02T12:41:58.88Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

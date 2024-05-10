@@ -1,0 +1,64 @@
+﻿@model kutuphane_otomasyou.Models.table.kisiler.kisi
+
+@{
+    ViewBag.Title = "ProfilGuncelle";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="mt-5 mb-3" style="text-align:center"> Merhaba @Session["isim"], Profilini Güncelle</h2>
+            <hr>
+
+
+            @using (Html.BeginForm("ProfilGuncelle", "Profil", FormMethod.Post, new { @class = "needs-validation", novalidate = "novalidate" }))
+            {
+                <div class="form-group row mb-3">
+                    <label for="ad" class="col-sm-3 col-form-label">Adı:</label>
+                    <div class="col-sm-9">
+                        @Html.TextBoxFor(x => x.ad, new { @class = "form-control", @required = "required" })
+                        <div class="invalid-feedback">Ad alanı gereklidir.</div>
+                    </div>
+                </div>
+
+                <div class="form-group row mb-3">
+                    <label for="soyad" class="col-sm-3 col-form-label">Soyadı:</label>
+                    <div class="col-sm-9">
+                        @Html.TextBoxFor(x => x.soyad, new { @class = "form-control", @required = "required" })
+                        <div class="invalid-feedback">Soyad alanı gereklidir.</div>
+                    </div>
+                </div>
+
+                <div class="form-group row mb-3">
+                    <label for="email" class="col-sm-3 col-form-label">E-posta:</label>
+                    <div class="col-sm-9">
+                        @Html.TextBoxFor(x => x.email, new { @class = "form-control", @required = "required", type = "email" })
+                        <div class="invalid-feedback">Geçerli bir e-posta adresi girin.</div>
+                    </div>
+                </div>
+
+                <div class="form-group row mb-3">
+                    <label for="sifre" class="col-sm-3 col-form-label">Şifre:</label>
+                    <div class="col-sm-9">
+                        @Html.PasswordFor(x => x.sifre, new { @class = "form-control", @required = "required" })
+                        <div class="invalid-feedback">Şifre alanı gereklidir.</div>
+                    </div>
+                </div>
+
+                <div class="form-group row mb-3">
+                    <label for="sifreTekrar" class="col-sm-3 col-form-label">Şifre Tekrar:</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" id="sifreTekrar" name="sifreTekrar" required>
+                        <div class="invalid-feedback">Şifre tekrar alanı gereklidir.</div>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-12 text-center">
+                        <button type="submit" class="btn btn-primary">Güncelle</button>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

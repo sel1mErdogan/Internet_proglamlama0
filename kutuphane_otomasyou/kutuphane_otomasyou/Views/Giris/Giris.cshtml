@@ -1,0 +1,162 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Sayfası</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="~/web/favicon.ico" type="img/favicon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(/web/giris_background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 400px;
+            background: #f1f1f1;
+            height: 650px;
+            padding: 80px 40px;
+            border-radius: 15px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .container2 {
+            display: block;
+            position: relative;
+            padding-left: 110px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            font-size: 15px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .container h2 {
+            color: rgb(44, 44, 173);
+            padding-left: 5px;
+        }
+
+        .txtb {
+            border-bottom: 2px solid #adadad;
+            position: relative;
+            margin: 30px 0;
+        }
+
+            .txtb input {
+                font-size: 15px;
+                color: #333;
+                border: none;
+                width: 100%;
+                outline: none;
+                background: none;
+                padding: 0 5px;
+                height: 40px;
+            }
+
+        img.adminimg {
+            margin-left: 80px;
+            margin-bottom: 50px;
+            max-width: 50%;
+            border-radius: 12%;
+        }
+
+        .logbtn {
+            display: block;
+            width: 100%;
+            height: 50px;
+            border: none;
+            background-image: linear-gradient(135deg, rgba(184,208,254,1) 0%, rgba(22,81,203,1) 35%, rgba(0,212,255,1) 100%);
+            background-size: 140%;
+            color: #ffff;
+            outline: none;
+            cursor: pointer;
+            border-radius: 14px;
+            transition: 0.6s;
+        }
+
+            .logbtn:hover {
+                background-position: right;
+            }
+
+        .kayit_ol {
+            font-size: 16px;
+            padding: 0px 124px;
+            box-sizing: border-box;
+            color: cornflowerblue;
+         
+         }
+            .kayit_ol:hover {
+                color: rgb(1, 39, 88);
+            }
+        
+            
+        
+    </style>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <div class="container">
+            <div class="contact-form">
+                <img src="~/web/digibook_logo.jpg" class="adminimg">
+                <h2>DigiBook Giris Sayfası</h2>
+                <form>
+                    <div class="txtb">
+
+
+                        @Html.TextBox("username", null, new { @class = "", placeholder = "Username" }) <br />
+                    </div>
+                    <div class="txtb">
+
+                        @Html.TextBox("password", null, new { @class = "", placeholder = "password" }) <br />
+
+                    </div>
+
+
+                    <label class="container2">
+                        Beni hatırla
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <br>
+                    <input type="submit" class="logbtn" value="Giris">
+                    @if (TempData["sifre"] != null && (bool)TempData["sifre"] == true)
+                    {
+                        <p style="color: red; text-align:center">Kullanıcı adı veya şifre hatalı.</p>
+                    }
+                </form>
+                <br />
+                <div>
+                    <h6>
+                        @Html.ActionLink("Kayıt Ol", "kayit_ol", "Giris", new { @class = "kayit_ol" })
+
+                    </h6>
+                </div>
+               
+            </div>
+        </div>
+    }
+    </body>
+
+</html>

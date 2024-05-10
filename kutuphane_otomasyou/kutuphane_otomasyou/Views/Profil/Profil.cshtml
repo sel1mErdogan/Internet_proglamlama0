@@ -1,0 +1,200 @@
+﻿
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="img/favicon.ico" type="img/favicon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: white;
+            font-family: sans-serif;
+            background-image: url(/web/still-life-books-versus-technology.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .center .avatar img {
+            border-radius: 50%;
+            width: 140px;
+            height: 140px;
+            margin-top: 5%;
+        }
+
+        .center {
+            width: 600px;
+            background-color: rgba(0,0,0,0.7);
+            height: 550px;
+            text-align: center;
+            border-radius: 3%;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        h1 {
+            color: lightcyan;
+        }
+
+        .content h2 {
+            padding: 10px;
+            font-weight: bolder;
+            letter-spacing: 0.5px;
+            width: 80%;
+            margin: 10px auto;
+        }
+
+        .content p {
+            padding: 10px;
+            font-weight: lighter;
+            letter-spacing: 0.5px;
+            width: 80%;
+            margin: 10px auto;
+        }
+
+        .content h3 {
+            padding: 10px;
+        }
+
+        div.social i {
+            padding: 10px;
+            font-size: 50px;
+            margin: -30px auto;
+            color: lightcyan;
+            transition: 0.3s;
+        }
+
+            div.social i:hover {
+                color: lightskyblue;
+            }
+
+
+        .center {
+            max-width: 300px;
+            max-height: 550px;
+        }
+
+        h1 {
+            font-size: 22px;
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+
+        p {
+            width: 90%;
+            font-size: 10px;
+        }
+
+        h3 {
+            font-size: 14px;
+        }
+
+        .social a i {
+            font-size: 32px;
+        }
+
+
+        .cikisbtn {
+            display: block;
+            width: 60%;
+            height: 40px;
+            border: none;
+            background-image: linear-gradient(135deg, rgb(254, 184, 184) 0%, rgb(203, 22, 22) 35%, rgb(254, 184, 184) 100%);
+            background-size: 140%;
+            color: #fff;
+            outline: none;
+            cursor: pointer;
+            border-radius: 14px;
+            transition: 0.6s;
+            margin: 0 auto; /* Yatayda ortalamak için */
+            text-align: center; /* Yatayda ortalamak için */
+            line-height: 40px; /* Dikeyde ortalamak için */
+        }
+
+            .cikisbtn:hover {
+                scale: 1.07;
+            }
+
+        .logbtn, .cikisbtn {
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .social {
+            position: relative;
+            cursor: pointer;
+        }
+
+            .social:hover::after {
+                content: "Facebook: digibook , Mail: digibookresmi@gmail.com , Linkedin: Digibook , Twitter: Digibook , Instagram: digibookresmi";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: #cacaca;
+                color: #353131;
+                padding: 5px;
+                border-radius: 3px;
+                font-size: 12px;
+                opacity: 0.8;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="center">
+        <div class="avatar">
+            <img src="/web/profile.jpg">
+        </div>
+        @using (Html.BeginForm())
+        {
+            <div class="content">
+                <h1>@Session["isim"] </h1>
+                <h2>@Session["email"]</h2>
+                <p>
+                    @Html.ActionLink("Çıkış Yap", "cikis", "Giris", new { isim = "true" }, new { @class = "cikisbtn" })
+
+                  
+
+                </p>
+
+                <p>
+                    @Html.ActionLink("Profil Güncelle", "ProfilGuncelle", "Profil", new { isim = "selim" }, new { @class = "cikisbtn", style= " background-image: linear-gradient(135deg, rgb(254, 184, 184) 0%, lightskyblue 35%, rgb(254, 184, 184) 100%);" })
+                    @*<a href="https://localhost:44366/Giris/Giris" class="cikisbtn">profil guncelle</a>*@
+
+                </p>
+                <h3>Bizi sosyal medyadan takip edin ve fırsatları kaçırmayın!</h3>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        }
+    </div>
+
+    </div>
+</body>
+</html>
